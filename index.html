@@ -5,28 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Huella Urbana</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chango&family=Paprika&display=swap" rel="stylesheet">    
 </head>
 <body>
     <header>
         <img src="img/logo.png" alt="Logo de Huella Urbana">
         <nav>
             <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#planes">Planes</a></li>
-                <li><a href="#paseadores">Paseadores</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#inicio" class="boton">Inicio</a></li>
+                <li><a href="#servicios"class="boton">Servicios</a></li>
+                <li><a href="#planes" class="boton">Planes</a></li>
+                <li><a href="#paseadores" class="boton">Paseadores</a></li>
+                <li><a href="#contacto" class="boton">Contacto</a></li>
             </ul>
         </nav> 
     </header>
     <main>
-        <section id="Inicio">
-            <h1>Huella Urbana</h1>
+        <section id="inicio">
+            <h1 id="titulo">Huella Urbana </h1>
             <p id="slogan">En Huella Urbana creemos que cada mascota merece vivir momentos llenos de alegría, cariño y aventura. Por eso, transformamos cada paseo en una experiencia especial, donde el ejercicio, la diversión y el bienestar se unen para llenar de felicidad sus días.</p>
-            <a href="#contacto">Agenda Ahora</a>
+            <a href="#contacto"class="boton">Agenda un paseo</a>
+            <br>
             <img src="img/principal.jpg" alt="Paseo de Mascotas">
         </section>
-
+        <section id="video">
+            <iframe width="1030" height="579" src="https://www.youtube.com/embed/ct1FinqXKuI" 
+            title="El malvado plan del conejito Snowball | La vida secreta de tus mascotas | Clip en Español" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen></iframe>
+        </section>
         <section id="servicios">
             <article>
                 <img src="img/paseo-individual.jpg" alt="Paseo Individual">
@@ -85,7 +95,21 @@
                 <p class="parrafo">Estudiante de veterinaria. Ideal para mascotas grandes </p>
             </article>
         </section>
+        <section id="contacto">
+            <h2>Contactanos</h2>
+            <p>Escribenos y agenda el primer paseo para tu mascota</p>
+            <ul>
+                <li><a href="mailto:contacto@huellaurbana.com">contacto@huellaurbana.com</a></li>
+                <li ><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
     </main>
-
+    <footer>
+        <p>&copy;2023 Huella Urbana. Todos los derechos reservados.</p>
+        <p>Fotos: <a href="https://www.pexels.com/es-es/" target="_blank">Pexels</a></p>
+        
+    </footer>
 </body>
 </html>
